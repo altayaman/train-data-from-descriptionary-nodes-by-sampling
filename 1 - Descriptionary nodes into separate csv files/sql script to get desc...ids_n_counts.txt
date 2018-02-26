@@ -1,0 +1,5 @@
+select a.category_id, count(a.category_id)
+from ddesc.descriptionary a
+where a.category_id is not null
+group by a.category_id
+order by count(a.category_id) desc
