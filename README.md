@@ -17,5 +17,5 @@ For that we sort each csv file and divide the rows into needed sample size and t
 Ex: If we need 100 items as a sample from 10000 items csv file, we sort the file and divide 10000 by 100 where we get 100 parts. Then pick 1 items from each part. Because after sorting the file, the similar items are sorted one after another creating a sorted clusters. Then when we do the sampling process it is more likely that we get at least one representative item from each cluster. And of course, example shows sample as 100 out of 10000, consequently the larger tha sample size the more likely we touch more clusters which makes a good representative sample data.  
 
 
-Meaning:  
+** *:  
 Descriptionary - a dictionary that has where correct item descriptions for nodes.
